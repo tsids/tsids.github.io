@@ -1,0 +1,495 @@
+<!-- <?php include 'inc/header.html' ?> -->
+<!-- Header Start -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Home</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="assets/css/bootstrap.min.css"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top mb-3">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="https://getbootstrap.com/docs/5.0/assets/brand/bootstrap-logo.svg"
+            alt="bootstrap logo"
+            width="30"
+            height="24"
+            class="d-inline-block align-text-top"
+          />
+          Bootstrap
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="navbar-nav me-auto mb-2 mb-lg-0">
+            <a class="nav-link active" aria-current="page" href="index.html">
+              <i class="fas fa-home fa-fw"></i> Home</a
+            >
+            <a class="nav-link" href="products.html">
+              <i class="fas fa-shopping-cart fa-fw"></i> Products</a
+            >
+            <a class="nav-link" href="services.html">
+              <i class="fas fa-tag fa-fw"></i> Services</a
+            >
+            <a class="nav-link" href="contact.html">
+              <i class="fas fa-envelope fa-fw"></i> Contact</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <span class="fa-stack" id="back-to-top">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-chevron-up fa-stack-1x fa-inverse"></i>
+    </span>
+    <!-- Header End -->
+
+    <main>
+      <!-- <h1 class="container alert alert-danger text-center" role="alert"> TEMPLATE SITE </h1> -->
+
+      <!-- Carousel -->
+      <div class="my-4">
+        <div class="container">
+          <div class="row">
+            <div id="slider" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#slider"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#slider"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#slider"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#slider"
+                  data-bs-slide-to="3"
+                  aria-label="Slide 4"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="assets/images/farm.jpg"
+                    class="d-block w-100"
+                    alt="First slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/brussel.jpg"
+                    class="d-block w-100"
+                    alt="Second Slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/berries.jpg"
+                    class="d-block w-100"
+                    alt="Third slide"
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="assets/images/pumpkin.jpg"
+                    class="d-block w-100"
+                    alt="Fourth slide"
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide="prev"
+              >
+                <i class="fas fa-chevron-circle-left" aria-hidden="true"></i>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#slider"
+                data-bs-slide="next"
+              >
+                <i class="fas fa-chevron-circle-right" aria-hidden="true"></i>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Offers -->
+      <section class="my-5 ft-nav" id="offers">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <h1>What We Offer</h1>
+            <hr class="line" />
+          </div>
+
+          <div class="row cols-auto d-flex justify-content-center text-center">
+            <div class="col">
+              <h5>Produce</h5>
+              <img
+                class="mb-4 mt-2"
+                src="assets/images/fruits.jpg"
+                alt="fruits"
+              />
+              <div>
+                <p>
+                  We produce organic vegetable boxes that are affordable,
+                  seasonal, and as fresh and local as possible.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <h5>Meat</h5>
+              <img class="mb-4 mt-2" src="assets/images/meat.jpg" alt="meat" />
+              <div>
+                <p>
+                  We have different sizes of boxes available for various
+                  appetites, from individuals to families.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row cols-auto d-flex justify-content-center text-center">
+            <div class="col">
+              <h5>Seafood</h5>
+              <img
+                class="mb-4 mt-2"
+                src="assets/images/seafood.jpg"
+                alt="seafood"
+              />
+              <div>
+                <p>
+                  We are flexible with the items in your boxes. You can change
+                  items in your order for something you would like.
+                </p>
+              </div>
+            </div>
+            <div class="col">
+              <h5>Organics</h5>
+              <img
+                class="mb-4 mt-2"
+                src="assets/images/vegetables.jpg"
+                alt="vegetables"
+              />
+              <div>
+                <p>
+                  There is never been a better time to eat organic. Organic
+                  means working with nature. We’re coming into a fantastic time
+                  for European food.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Testimonials -->
+      <section class="container my-5">
+        <div
+          class="d-flex flex-column justify-content-center align-items-center w-100 ft-nav"
+          id="testimonials"
+        >
+          <div
+            class="row testimonial-heading d-flex flex-column justify-content-center align-items-center"
+          >
+            <span class="text-center text-uppercase">Testimonials</span>
+            <h1>What Our Clients Say</h1>
+          </div>
+          <div
+            class="row d-flex justify-content-center align-items-center flex-wrap w-100"
+          >
+            <div class="col-lg-6 testimonial-box">
+              <div class="box-top">
+                <div class="profile">
+                  <div class="profile-img">
+                    <img src="assets/images/profile.png" alt="profile photo" />
+                  </div>
+                  <div class="name-user">
+                    <strong>Touseeq Ijaz</strong>
+                    <span>@touseeqijazweb</span>
+                  </div>
+                </div>
+                <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="client-comment">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Exercitationem, quaerat quis? Provident temporibus architecto
+                  asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam
+                  tenetur voluptates incidunt blanditiis sed atque cumque.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 testimonial-box">
+              <div class="box-top">
+                <div class="profile">
+                  <div class="profile-img">
+                    <img src="assets/images/profile.png" alt="profile photo" />
+                  </div>
+                  <div class="name-user">
+                    <strong>J.K Rowling</strong>
+                    <span>@jkrowling</span>
+                  </div>
+                </div>
+                <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+              </div>
+              <div class="client-comment">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Exercitationem, quaerat quis? Provident temporibus architecto
+                  asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam
+                  tenetur voluptates incidunt blanditiis sed atque cumque.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 testimonial-box">
+              <div class="box-top">
+                <div class="profile">
+                  <div class="profile-img">
+                    <img src="assets/images/profile.png" alt="profile photo" />
+                  </div>
+                  <div class="name-user">
+                    <strong>Harry Potter</strong>
+                    <span>@DanielRedclief</span>
+                  </div>
+                </div>
+                <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                </div>
+              </div>
+              <div class="client-comment">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Exercitationem, quaerat quis? Provident temporibus architecto
+                  asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam
+                  tenetur voluptates incidunt blanditiis sed atque cumque.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 testimonial-box">
+              <div class="box-top">
+                <div class="profile">
+                  <div class="profile-img">
+                    <img src="assets/images/profile.png" alt="profile photo" />
+                  </div>
+                  <div class="name-user">
+                    <strong>Oliva</strong>
+                    <span>@Olivaadward</span>
+                  </div>
+                </div>
+                <div class="reviews">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+              </div>
+              <div class="client-comment">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Exercitationem, quaerat quis? Provident temporibus architecto
+                  asperiores nobis maiores nisi a. Quae doloribus ipsum aliquam
+                  tenetur voluptates incidunt blanditiis sed atque cumque.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Start -->
+    <footer class="lh-base">
+      <!-- Footer main -->
+      <section
+        class="d-flex flex-wrap justify-content-between py-3 px-5 columns"
+      >
+        <div class="col col-xl-4 p-3 brand">
+          <h2 class="px-2">Groceries</h2>
+          <p class="ps-2 me-lg-5">
+            At Groceries, we strive to bring you the best of our hand-picked,
+            fine quality products, at convenient prices
+          </p>
+          <ul class="list-unstyled d-flex">
+            <li>
+              <a href="https://www.facebook.com" target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.twitter.com" target="_blank"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com" target="_blank"
+                ><i class="fab fa-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.github.com" target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.youtube.com"
+                ><i class="fab fa-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a href="https://www.web.whatsapp.com" target="_blank"
+                ><i class="fab fa-whatsapp" aria-hidden="true"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="spacing"></div>
+        <div class="col p-3 links tabs">
+          <h4>Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="index.html#offers">Offers</a></li>
+            <li><a href="products.html#products">Products</a></li>
+            <li><a href="services.html#services">Services</a></li>
+            <li><a href="contact.html#contact">Contact</a></li>
+            <li><a href="index.html#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="col p-3 links tabs">
+          <h4>Products</h4>
+          <ul class="list-unstyled">
+            <li><a href="products.html#organic">Organic</a></li>
+            <li><a href="products.html#meat">Meat</a></li>
+            <li><a href="products.html#seafood">Seafood</a></li>
+            <li><a href="products.html#dessert">Dessert</a></li>
+          </ul>
+        </div>
+        <div class="col p-3 links contact">
+          <h4>Contact</h4>
+          <p>
+            Contact us today at:
+            <br />
+            <a href="mailto:info@groceries.com">
+              <i class="fas fa-envelope fa-fw"></i> info@groceries.com
+            </a>
+            <br />
+            <a href="tel:+1234567890">
+              <i class="fas fa-phone fa-fw"></i> +1-234-567-890
+            </a>
+            <br />
+            <i class="fas fa-map-marker-alt"></i> 198 West 21th Street, Suite
+            721 New York NY 10016
+          </p>
+        </div>
+        <div class="spacing"></div>
+        <div class="col p-3 news">
+          <h4>Stay Updated</h4>
+          <p class="mb-2">
+            Subscribe to our newsletter to get our latest news.
+          </p>
+          <form class="d-flex">
+            <input
+              type="email"
+              name="email"
+              placeholder="Enter email address"
+              class="p-2 border-0"
+            />
+            <input type="submit" value="Subscribe" class="p-2 border-0" />
+          </form>
+        </div>
+      </section>
+
+      <!-- Footer legal -->
+      <div class="ft-legal col-auto">
+        <ul class="d-flex flex-wrap list-unstyled w-100 py-3 px-4 mb-0">
+          <li class="text-nowrap mx-2 my-1">
+            <a href="#">Terms &amp; Conditions</a>
+          </li>
+          <li class="col text-nowrap mx-2 my-1">
+            <a href="#">Privacy Policy</a>
+          </li>
+          <li class="text-nowrap mx-2 my-1">
+            &copy; 2021 Copyright Nowrap Inc.
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!-- Footer End -->
+
+<!-- <?php include 'inc/footer.html'; ?> -->
