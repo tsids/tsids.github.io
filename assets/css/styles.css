@@ -21,7 +21,7 @@
   --hover-shadow: #405091;
   --br-sm-2: 14px;
   --box-shadow-1: 0 3px 15px rgba(0, 0, 0, .3);
-
+  --green-bright: #4388e2
 }
 
 .light-mode {
@@ -38,6 +38,7 @@
   --color-grey-6: #12181b;
   --color-bg: #f5f1f1;
   --hover-shadow: #ffccc2;
+  --green-bright: #4388e2
 }
 
 body {
@@ -162,9 +163,11 @@ section {
 
 /*Header-content*/
 .header-content {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+  /* grid-template-columns: repeat(2, 1fr); */
   min-height: 100vh;
+  justify-content: center;
 }
 
 .header-content .left-header {
@@ -210,7 +213,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* padding-right: 18rem; */
+  padding-right: 18rem;
   padding-left: 18rem;
 }
 
@@ -475,6 +478,10 @@ section {
 }
 
 .projects-card {
+  margin: 0 2px;
+}
+
+.projects-content {
   position: relative;
   cursor: default;
   display: flex;
@@ -487,7 +494,7 @@ section {
   border-radius: 16px;
 }
 
-.projects-card:hover {
+.projects-content:hover {
   transform: translateY(-7px);
   background-color: var(--hover-shadow);
 }
@@ -1183,4 +1190,28 @@ section {
   .main-title h2 .bg-text {
     font-size: 4rem;
   }
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  position: fixed;
+  right: 0;
+  padding-right: 5%;
+  bottom: 10%;
+  background-color: transparent;
+}
+
+.sidebar-logos {
+  padding-top: 42px;
+  width: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.sidebar-logos .icons:hover {
+  color: var(--green-bright)
 }
